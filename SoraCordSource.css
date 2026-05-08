@@ -20,7 +20,7 @@
   --wallpaper-3: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper3.png?raw=true');
   --wallpaper-4: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper4.png?raw=true');
 
-  --wallpaper-variant: var(--wallpaper-1); /* !To change the wallpaper, modify the number inside "var(--wallpaper-X)". "X" should be a number */
+  --wallpaper-variant: var(--wallpaper-4); /* !To change the wallpaper, modify the number inside "var(--wallpaper-X)". "X" should be a number */
 
   /* ACCENT COLORS */
 
@@ -38,7 +38,7 @@
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
   /* APP BACKGROUND */
-  --background-shading-percent: 10%; /* app background shading amount (0 for complete smoothness) [default: 100%] */  
+  --background-shading-percent: 10%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
   --background-image: var(--wallpaper-variant); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
