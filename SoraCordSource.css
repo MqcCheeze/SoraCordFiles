@@ -174,3 +174,8 @@
 [class="iconItem_c69b6d iconBase_c69b6d"] > svg.actionIcon_c69b6d > path {
     fill: var(--sora-dark);
 }
+
+[class="live_a7acae liveSmall_a7acae eyebrow_a7acae textBadge__2b1f5 base__2b1f5 eyebrow__2b1f5 liveShapeRound_a7acae"] > svg.actionIcon_c69b6d > path {
+    color: var(--sora-dark);
+}
+
