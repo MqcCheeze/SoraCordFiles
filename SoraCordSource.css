@@ -170,3 +170,7 @@
 [class="iconItem_c69b6d iconBase_c69b6d iconWithChannelInfo_c69b6d"] > svg path {
     color: var(--sora-dark);
 }
+
+[class="iconItem_c69b6d iconBase_c69b6d"] > [class="actionIcon_c69b6d"] > path {
+    color: var(--sora-dark);
+}
