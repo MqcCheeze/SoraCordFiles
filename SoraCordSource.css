@@ -155,7 +155,7 @@
   background-color: var(--sora-white);
 }
 
-.botTagVerified__82f07 > path, .buttonChildren_a22cb0 > svg > path, #«r3tb» > div > svg > path {
+.botTagVerified__82f07 > path, .buttonChildren_a22cb0 > svg > path {
   fill: var(--sora-dark);
 }
 
@@ -165,4 +165,8 @@
 
 [class="anchor_edefb8 anchorUnderlineOnHover_edefb8"] {
     color: #ecdaae !important;
+}
+
+[class="iconItem_c69b6d iconBase_c69b6d iconWithChannelInfo_c69b6d"] > svg > path {
+    color: var(--sora-dark);
 }
