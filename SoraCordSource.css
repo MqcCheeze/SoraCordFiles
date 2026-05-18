@@ -171,6 +171,6 @@
     fill: var(--sora-dark);
 }
 
-[class="iconItem_c69b6d iconBase_c69b6d"] > [class="actionIcon_c69b6d"] > path {
+[class="iconItem_c69b6d iconBase_c69b6d"] > svg.actionIcon_c69b6d > path {
     fill: var(--sora-dark);
 }
