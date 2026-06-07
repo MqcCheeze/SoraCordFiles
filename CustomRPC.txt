@@ -1,0 +1,14 @@
+Activity Type: Playing
+Application Name: with Sora ♡
+
+Large Image URL/Key: https://github.com/MqcCheeze/SoraCordFiles/blob/main/SoraIcon.png?raw=true
+Large Image Text: Kasugano Sora
+Large Image clickable URL: https://trjr.wordpress.com/
+Small Image URL/Key: https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/SoraIcon.png?raw=true
+Small Image Text: Hozumi Academy
+
+Button1 URL: https://trjr.wordpress.com/
+Button1 Text: Kasugano
+
+Button2 URL: https://trjr.wordpress.com/
+Button2 Text: Family
