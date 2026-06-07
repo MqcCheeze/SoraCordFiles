@@ -15,11 +15,11 @@
 /* !SETTINGS */
 :root {
   /* WALLPAPER VARIANT */
-  --wallpaper-1: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper1.png?raw=true');
-  --wallpaper-2: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper2.png?raw=true');
-  --wallpaper-3: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper3.png?raw=true');
-  --wallpaper-4: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper4.png?raw=true');
-  --wallpaper-5: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/DiscordWallpaper5.png?raw=true');
+  --wallpaper-1: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/Wallpapers/DiscordWallpaper1.png?raw=true');
+  --wallpaper-2: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/Wallpapers/DiscordWallpaper2.png?raw=true');
+  --wallpaper-3: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/Wallpapers/DiscordWallpaper3.png?raw=true');
+  --wallpaper-4: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/Wallpapers/DiscordWallpaper4.png?raw=true');
+  --wallpaper-5: url('https://github.com/MqcCheeze/SoraCordFiles/blob/main/Resources/Wallpapers/DiscordWallpaper5.png?raw=true');
   
   --wallpaper-variant: var(--wallpaper-4); /* !To change the wallpaper, modify the number inside "var(--wallpaper-X)". "X" should be a number */
 
@@ -58,7 +58,7 @@
   --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
   --user-modal-filter: var(--background-filter); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   /* HOME ICON */
-  --home-icon: url(https://raw.githubusercontent.com/MqcCheeze/SoraCordFiles/21e481dc6fb1f60e2a7558769419de52584e9f79/HomeLogo.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://raw.githubusercontent.com/MqcCheeze/SoraCordFiles/20ff26703b5bef1fe9778a47b6c7c39946a49052/Resources/Home/HomeLogo.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
   /* FONTS */
   --main-font: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
