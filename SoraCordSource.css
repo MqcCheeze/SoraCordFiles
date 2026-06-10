@@ -26,12 +26,12 @@
 
   /* ACCENT COLORS */
 
-  --accent-white: #e8e4db;
+  --accent-light: #e8e4db;
   --accent-dark: #4e4c40;
   --main-text-color: #e8e4db;
   --link-text-color: #ecdaae;
 
-  --main-color: var(--accent-white); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --main-color: var(--accent-light); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #928f8a; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b565; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #bd2929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
