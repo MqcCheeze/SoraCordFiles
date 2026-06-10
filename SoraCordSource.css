@@ -25,10 +25,12 @@
 
   /* ACCENT COLORS */
 
-  --sora-white: #e8e4db;
-  --sora-dark: #4e4c40;
+  --accent-white: #e8e4db;
+  --accent-dark: #4e4c40;
+  --main-text-color: #e8e4db;
+  --link-text-color: #ecdaae;
 
-  --main-color: var(--sora-white); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --main-color: var(--accent-white); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #928f8a; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b565; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #bd2929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
@@ -74,7 +76,7 @@
   /* --invite-icon: url(https://raw.githubusercontent.com/MqcCheeze/SoraCordFiles/6606f6741dae672b649c50372db4ade358aa5598/InviteLogo.svg); */
   /* ACCESSIBILITY */
   --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
-  --interactive-text-active: var(--sora-dark);
+  --interactive-text-active: var(--accent-dark);
 }
 
 /* THEME SPECIFIC SHADING */
@@ -107,7 +109,7 @@
   --popout-shading: rgba(0, 0, 0, 0.7); /* popouts background shading color [default: rgba(0, 0, 0, 0.7)] */
   --modal-shading: rgba(0, 0, 0, 0.5); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
   --input-shading: rgba(255, 255, 255, 0.05); /* inputs background shading color [default: rgba(255, 255, 255, 0.05)] */
-  --normal-text: #fbfbfb; /* text color [default: #fbfbfb] */
+  --normal-text: var(--main-text-color); /* text color [default: #fbfbfb] */
   --muted-text: #94949c; /* muted text color [default: #94949c] */
 }
 
@@ -118,7 +120,7 @@
   --popout-shading: rgba(0, 0, 0, 0.8); /* popouts background shading color [default: rgba(0, 0, 0, 0.8)] */
   --modal-shading: rgba(0, 0, 0, 0.6); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
   --input-shading: rgba(255, 255, 255, 0.05); /* inputs background shading color [default: rgba(255, 255, 255, 0.05)] */
-  --normal-text: var(--sora-white); /* text color [default: #dcdcde] */
+  --normal-text: var(--main-text-color); /* text color [default: #dcdcde] */
   --muted-text: #86868e; /* muted text color [default: #86868e] */
 }
 
@@ -146,46 +148,3 @@
     color:var(--text-muted);
     order:3
 }
-
-
-:is(.wrapper_f61d60, .botText__82f07, .lookFilled__201d5.colorBrand__201d5) {
-  color: var(--sora-dark);
-}
-
-.buttonChildren_a22cb0 > span, .numberBadge__2b1f5,
-[class="live_a7acae liveSmall_a7acae eyebrow_a7acae textBadge__2b1f5 base__2b1f5 eyebrow__2b1f5 liveShapeRound_a7acae"],
-.liveIndicator__30845 > div
-{
-  color: var(--sora-dark);
-}
-
-[class="anchor_edefb8 anchorUnderlineOnHover_edefb8"] {
-  color: #ecdaae !important;
-}
-
-.button_a22cb0,
-.centerButton_f1ceac.colorable_f1ceac.join_f1ceac.fullRegionButton_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5 
-{
-  background-color: var(--sora-white);
-}
-
-.centerButton_f1ceac.colorable_f1ceac.disconnect_f1ceac.fullRegionButton_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5 {
-  background-color: var(--sora-dark);
-}
-
-.botTagVerified__82f07 > path, .buttonChildren_a22cb0 > svg > path,
-[class="iconItem_c69b6d iconBase_c69b6d iconWithChannelInfo_c69b6d"] > svg path,
-[class="iconItem_c69b6d iconBase_c69b6d"] > svg.actionIcon_c69b6d > path,
-.centerButton_f1ceac.colorable_f1ceac.join_f1ceac.fullRegionButton_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5 > div > svg > path
-{
-  fill: var(--sora-dark);
-}
-
-.centerButton_f1ceac.colorable_f1ceac.disconnect_f1ceac.fullRegionButton_f1ceac.button__201d5.lookBlank__201d5.colorBrand__201d5 > div > svg > path {
-  fill: var(--sora-white);
-}
-
-
-
-
-
