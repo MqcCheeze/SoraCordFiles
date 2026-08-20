@@ -80,6 +80,8 @@
   --interactive-text-active: var(--accent-dark);
   /* OTHER */
   --direct-message-text: "Direct Messages";
+  --direct-message-icon: url(about:blank); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+
 }
 
 /* THEME SPECIFIC SHADING */
@@ -152,6 +154,11 @@
     order:3
 }
 
-.title_edbb22 > [class="defaultColor__4bd52 lineClamp1__4bd52 text-sm/medium_cf4812"] {
-  content: "Direct Messages";
+.title_edbb22 > div {
+    font-size: 0;
+}
+
+.title_edbb22 > div::after {
+    content: var(--direct-message-text);
+    font-size: 14px;
 }
