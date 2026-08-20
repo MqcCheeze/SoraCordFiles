@@ -78,6 +78,8 @@
   /* ACCESSIBILITY */
   --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
   --interactive-text-active: var(--accent-dark);
+  /* OTHER */
+  --direct-messages-text: "Direct Messages"; /* direct messages text color [default: var(--accent-dark)] */
 }
 
 /* THEME SPECIFIC SHADING */
@@ -149,3 +151,4 @@
     color:var(--text-muted);
     order:3
 }
+
