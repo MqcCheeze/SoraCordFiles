@@ -154,11 +154,19 @@
     order:3
 }
 
-.title_edbb22 > div {
+/* .title_edbb22 > div {
     font-size: 0;
 }
 
 .title_edbb22 > div::after {
     content: var(--direct-message-text);
     font-size: 14px;
+} */
+
+/* .title_edbb22 > svg {
+    background: var(--direct-message-icon) center / contain no-repeat;
 }
+
+.title_edbb22 > svg > path {
+    display: none;
+} */
